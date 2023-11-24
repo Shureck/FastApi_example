@@ -10,6 +10,7 @@ async def getR():
     return "Test"
 
 @app.get("/get")
-async def getUser(count):
-    count += count
+async def getUser(sum: int):
+    global count
+    count += sum
     return {"count":count}
