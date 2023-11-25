@@ -1,5 +1,7 @@
 # forCi-CD
 
+```cd FastApi_example/```
+
 ```python3 -m venv venv```
 
 ```source venv/bin/activate```
